@@ -1,0 +1,21 @@
+{
+  "name": "bitfinex-distributed-exchange",
+  "version": "0.0.1",
+  "private": false,
+  "description": "distributed exchange app using granache Node.js implementation",
+  "author": "Mahmoud Abed <mabbid84@gmail.com>",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maabed/bitfinex-distributed-exchange.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "grenache-nodejs-http": "^0.7.12",
+    "grenache-nodejs-link": "^0.7.12"
+  }
+}
